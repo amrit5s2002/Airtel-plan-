@@ -5,3 +5,6 @@ class PlanSerializer(ModelSerializer):
     class Meta:
         model = Plans
         fields = '__all__'
+        
+        
+        

@@ -13,7 +13,6 @@ def Data():
     driver.get('https://www.airtel.in/myplan-infinity/')
     elements = driver.find_elements(By.XPATH, "//span[contains(@class,'price')]")
     # print(type(elements))
-    # alphabet_list = list(alphabet_string)
     for p in elements:
         # print(p.text)
         plan = p.text
